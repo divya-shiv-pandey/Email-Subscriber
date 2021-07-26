@@ -1,0 +1,4 @@
+<FilesMatch "sendcomic\.php|users\.sql|config\.php">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
